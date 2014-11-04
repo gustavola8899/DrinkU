@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F99793A19FFAF3600E2E948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99793919FFAF3600E2E948 /* main.m */; };
+		1F99793D19FFAF3600E2E948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99793C19FFAF3600E2E948 /* AppDelegate.m */; };
+		1F99794019FFAF3600E2E948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99793F19FFAF3600E2E948 /* ViewController.m */; };
+		1F99794319FFAF3600E2E948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F99794119FFAF3600E2E948 /* Main.storyboard */; };
+		1F99794519FFAF3600E2E948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F99794419FFAF3600E2E948 /* Images.xcassets */; };
+		1F99794819FFAF3600E2E948 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F99794619FFAF3600E2E948 /* LaunchScreen.xib */; };
+		1F99795419FFAF3600E2E948 /* PieGioFabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99795319FFAF3600E2E948 /* PieGioFabTests.m */; };
+		1F99795F19FFE10B00E2E948 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F99795E19FFE10B00E2E948 /* DetailViewController.m */; };
+		1F9979641A0004E300E2E948 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9979631A0004E300E2E948 /* ListViewController.m */; };
+		F3FCDE5C835CFB6E56504526 /* libPods-PieGioFab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 982C87557DDDF9614E920120 /* libPods-PieGioFab.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F99794E19FFAF3600E2E948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F99792C19FFAF3600E2E948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F99793319FFAF3600E2E948;
+			remoteInfo = PieGioFab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F99793419FFAF3600E2E948 /* PieGioFab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieGioFab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F99793819FFAF3600E2E948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F99793919FFAF3600E2E948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F99793B19FFAF3600E2E948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F99793C19FFAF3600E2E948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F99793E19FFAF3600E2E948 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F99793F19FFAF3600E2E948 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F99794219FFAF3600E2E948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F99794419FFAF3600E2E948 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F99794719FFAF3600E2E948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F99794D19FFAF3600E2E948 /* PieGioFabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieGioFabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F99795219FFAF3600E2E948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F99795319FFAF3600E2E948 /* PieGioFabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieGioFabTests.m; sourceTree = "<group>"; };
+		1F99795D19FFE10B00E2E948 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1F99795E19FFE10B00E2E948 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1F9979621A0004E300E2E948 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		1F9979631A0004E300E2E948 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		982C87557DDDF9614E920120 /* libPods-PieGioFab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PieGioFab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4DCA562B11BA81766AF1D5 /* Pods-PieGioFab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieGioFab.release.xcconfig"; path = "Pods/Target Support Files/Pods-PieGioFab/Pods-PieGioFab.release.xcconfig"; sourceTree = "<group>"; };
+		F0F902BBD4825DD229EC672E /* Pods-PieGioFab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieGioFab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PieGioFab/Pods-PieGioFab.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F99793119FFAF3600E2E948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FCDE5C835CFB6E56504526 /* libPods-PieGioFab.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F99794A19FFAF3600E2E948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120B7258CB6414930D9BE706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				982C87557DDDF9614E920120 /* libPods-PieGioFab.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F99792B19FFAF3600E2E948 = {
+			isa = PBXGroup;
+			children = (
+				1F99793619FFAF3600E2E948 /* PieGioFab */,
+				1F99795019FFAF3600E2E948 /* PieGioFabTests */,
+				1F99793519FFAF3600E2E948 /* Products */,
+				7F05EB9C6BF2324066110A10 /* Pods */,
+				120B7258CB6414930D9BE706 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F99793519FFAF3600E2E948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F99793419FFAF3600E2E948 /* PieGioFab.app */,
+				1F99794D19FFAF3600E2E948 /* PieGioFabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F99793619FFAF3600E2E948 /* PieGioFab */ = {
+			isa = PBXGroup;
+			children = (
+				1F99793B19FFAF3600E2E948 /* AppDelegate.h */,
+				1F99793C19FFAF3600E2E948 /* AppDelegate.m */,
+				1F99793E19FFAF3600E2E948 /* ViewController.h */,
+				1F99793F19FFAF3600E2E948 /* ViewController.m */,
+				1F99794119FFAF3600E2E948 /* Main.storyboard */,
+				1F99794419FFAF3600E2E948 /* Images.xcassets */,
+				1F99794619FFAF3600E2E948 /* LaunchScreen.xib */,
+				1F99793719FFAF3600E2E948 /* Supporting Files */,
+			);
+			path = PieGioFab;
+			sourceTree = "<group>";
+		};
+		1F99793719FFAF3600E2E948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F99793819FFAF3600E2E948 /* Info.plist */,
+				1F99793919FFAF3600E2E948 /* main.m */,
+				1F99795D19FFE10B00E2E948 /* DetailViewController.h */,
+				1F99795E19FFE10B00E2E948 /* DetailViewController.m */,
+				1F9979621A0004E300E2E948 /* ListViewController.h */,
+				1F9979631A0004E300E2E948 /* ListViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F99795019FFAF3600E2E948 /* PieGioFabTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F99795319FFAF3600E2E948 /* PieGioFabTests.m */,
+				1F99795119FFAF3600E2E948 /* Supporting Files */,
+			);
+			path = PieGioFabTests;
+			sourceTree = "<group>";
+		};
+		1F99795119FFAF3600E2E948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F99795219FFAF3600E2E948 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F05EB9C6BF2324066110A10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0F902BBD4825DD229EC672E /* Pods-PieGioFab.debug.xcconfig */,
+				EC4DCA562B11BA81766AF1D5 /* Pods-PieGioFab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F99793319FFAF3600E2E948 /* PieGioFab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F99795719FFAF3600E2E948 /* Build configuration list for PBXNativeTarget "PieGioFab" */;
+			buildPhases = (
+				BA614F51CF4F1D1F98E274CB /* Check Pods Manifest.lock */,
+				1F99793019FFAF3600E2E948 /* Sources */,
+				1F99793119FFAF3600E2E948 /* Frameworks */,
+				1F99793219FFAF3600E2E948 /* Resources */,
+				614415B8D539DF91371A0A2E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieGioFab;
+			productName = PieGioFab;
+			productReference = 1F99793419FFAF3600E2E948 /* PieGioFab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F99794C19FFAF3600E2E948 /* PieGioFabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F99795A19FFAF3600E2E948 /* Build configuration list for PBXNativeTarget "PieGioFabTests" */;
+			buildPhases = (
+				1F99794919FFAF3600E2E948 /* Sources */,
+				1F99794A19FFAF3600E2E948 /* Frameworks */,
+				1F99794B19FFAF3600E2E948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F99794F19FFAF3600E2E948 /* PBXTargetDependency */,
+			);
+			name = PieGioFabTests;
+			productName = PieGioFabTests;
+			productReference = 1F99794D19FFAF3600E2E948 /* PieGioFabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F99792C19FFAF3600E2E948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Studente;
+				TargetAttributes = {
+					1F99793319FFAF3600E2E948 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1F99794C19FFAF3600E2E948 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1F99793319FFAF3600E2E948;
+					};
+				};
+			};
+			buildConfigurationList = 1F99792F19FFAF3600E2E948 /* Build configuration list for PBXProject "PieGioFab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F99792B19FFAF3600E2E948;
+			productRefGroup = 1F99793519FFAF3600E2E948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F99793319FFAF3600E2E948 /* PieGioFab */,
+				1F99794C19FFAF3600E2E948 /* PieGioFabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F99793219FFAF3600E2E948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F99794319FFAF3600E2E948 /* Main.storyboard in Resources */,
+				1F99794819FFAF3600E2E948 /* LaunchScreen.xib in Resources */,
+				1F99794519FFAF3600E2E948 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F99794B19FFAF3600E2E948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		614415B8D539DF91371A0A2E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PieGioFab/Pods-PieGioFab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA614F51CF4F1D1F98E274CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F99793019FFAF3600E2E948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9979641A0004E300E2E948 /* ListViewController.m in Sources */,
+				1F99794019FFAF3600E2E948 /* ViewController.m in Sources */,
+				1F99793D19FFAF3600E2E948 /* AppDelegate.m in Sources */,
+				1F99793A19FFAF3600E2E948 /* main.m in Sources */,
+				1F99795F19FFE10B00E2E948 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F99794919FFAF3600E2E948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F99795419FFAF3600E2E948 /* PieGioFabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F99794F19FFAF3600E2E948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F99793319FFAF3600E2E948 /* PieGioFab */;
+			targetProxy = 1F99794E19FFAF3600E2E948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F99794119FFAF3600E2E948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F99794219FFAF3600E2E948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F99794619FFAF3600E2E948 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F99794719FFAF3600E2E948 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F99795519FFAF3600E2E948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F99795619FFAF3600E2E948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F99795819FFAF3600E2E948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F902BBD4825DD229EC672E /* Pods-PieGioFab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PieGioFab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F99795919FFAF3600E2E948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4DCA562B11BA81766AF1D5 /* Pods-PieGioFab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PieGioFab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F99795B19FFAF3600E2E948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PieGioFabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieGioFab.app/PieGioFab";
+			};
+			name = Debug;
+		};
+		1F99795C19FFAF3600E2E948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PieGioFabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieGioFab.app/PieGioFab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F99792F19FFAF3600E2E948 /* Build configuration list for PBXProject "PieGioFab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F99795519FFAF3600E2E948 /* Debug */,
+				1F99795619FFAF3600E2E948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F99795719FFAF3600E2E948 /* Build configuration list for PBXNativeTarget "PieGioFab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F99795819FFAF3600E2E948 /* Debug */,
+				1F99795919FFAF3600E2E948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F99795A19FFAF3600E2E948 /* Build configuration list for PBXNativeTarget "PieGioFabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F99795B19FFAF3600E2E948 /* Debug */,
+				1F99795C19FFAF3600E2E948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F99792C19FFAF3600E2E948 /* Project object */;
+}
