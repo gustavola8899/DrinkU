@@ -16,6 +16,7 @@
 @property (nonatomic, strong) NSDictionary *jsonData;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, weak) NSIndexPath *index;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicatorView;
 
 
 @end
@@ -28,11 +29,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     
     NSString *url = [NSString stringWithFormat:@"%@%@%@", kOPEN_DRINK_URL, self.searchDrink, kOPEN_API];
     
     NSString *safeURL = [url stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
     
+    
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    
+    
+        
     STHTTPRequest *request = [STHTTPRequest requestWithURLString:safeURL];
     
     request.completionBlock = ^(NSDictionary *headers, NSString *body)
@@ -41,18 +48,24 @@
         self.jsonData = [NSJSONSerialization JSONObjectWithData:data
                                                         options:NSJSONReadingAllowFragments
                                                           error:nil];
-        NSLog(@"%@", self.jsonData);
         
         [self.tableView reloadData];
         
+        
+        NSLog(@"%@", self.jsonData);
+        
+        [self.indicatorView stopAnimating];
+        
     };
+    
     
     request.errorBlock = ^(NSError *error) {
         
-        NSLog(@"%@", error);
     };
     
     [request startAsynchronous];
+    
+    
 }
 
 
@@ -83,15 +96,13 @@
 {
     self.index = indexPath;
     [self performSegueWithIdentifier:@"Detail" sender:self];
-
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     DetailViewController *controller = (DetailViewController *)segue.destinationViewController;
     controller.jsonData = self.jsonData[@"result"][self.index.row];
+    
 }
-
-
 
 @end

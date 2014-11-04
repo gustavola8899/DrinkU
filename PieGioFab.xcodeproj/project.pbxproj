@@ -106,6 +106,10 @@
 				1F99793C19FFAF3600E2E948 /* AppDelegate.m */,
 				1F99793E19FFAF3600E2E948 /* ViewController.h */,
 				1F99793F19FFAF3600E2E948 /* ViewController.m */,
+				1F99795D19FFE10B00E2E948 /* DetailViewController.h */,
+				1F99795E19FFE10B00E2E948 /* DetailViewController.m */,
+				1F9979621A0004E300E2E948 /* ListViewController.h */,
+				1F9979631A0004E300E2E948 /* ListViewController.m */,
 				1F99794119FFAF3600E2E948 /* Main.storyboard */,
 				1F99794419FFAF3600E2E948 /* Images.xcassets */,
 				1F99794619FFAF3600E2E948 /* LaunchScreen.xib */,
@@ -119,10 +123,6 @@
 			children = (
 				1F99793819FFAF3600E2E948 /* Info.plist */,
 				1F99793919FFAF3600E2E948 /* main.m */,
-				1F99795D19FFE10B00E2E948 /* DetailViewController.h */,
-				1F99795E19FFE10B00E2E948 /* DetailViewController.m */,
-				1F9979621A0004E300E2E948 /* ListViewController.h */,
-				1F9979631A0004E300E2E948 /* ListViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
