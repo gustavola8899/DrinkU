@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39B82B09-B89E-4818-A891-F92B65A041E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PieGioFab</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E5AC60FE998DB25E13660B71CAD972A67F53C8D8</key>
+		<string>https://github.com/gustavola8899/DrinkU.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PieGioFab.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E5AC60FE998DB25E13660B71CAD972A67F53C8D8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gustavola8899/DrinkU.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E5AC60FE998DB25E13660B71CAD972A67F53C8D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5AC60FE998DB25E13660B71CAD972A67F53C8D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PieGioFab</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -89,7 +89,7 @@
 -(void)viewDidLayoutSubviews
 {
         NSLog(@"%@", NSStringFromCGRect(self.scrollView.bounds));
-    self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.descrizioneT.frame.origin.y + self.descrizioneT.frame.size.height + 60);
+    self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.buttonVideo.frame.origin.y + self.buttonVideo.frame.size.height + 20);
 }
 - (IBAction)actionVideo:(id)sender
 {

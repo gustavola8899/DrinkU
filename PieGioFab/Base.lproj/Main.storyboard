@@ -19,7 +19,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drink2" translatesAutoresizingMaskIntoConstraints="NO" id="y5o-zr-HWC">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cerca drink..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G8r-ZM-DPE">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search drink..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G8r-ZM-DPE">
                                 <rect key="frame" x="16" y="72" width="228" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -147,14 +147,14 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredienti:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0v-L2-T9w">
-                                        <rect key="frame" x="113" y="343" width="95" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0v-L2-T9w">
+                                        <rect key="frame" x="110" y="343" width="101" height="24"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descrizione:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIV-Gn-IRf">
-                                        <rect key="frame" x="108" y="404" width="105" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIV-Gn-IRf">
+                                        <rect key="frame" x="109" y="404" width="103" height="24"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -187,27 +187,27 @@
                                             <constraint firstAttribute="width" constant="300" id="mib-GN-zm2"/>
                                         </constraints>
                                     </imageView>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="tid-rm-pdS">
+                                        <rect key="frame" x="142" y="171" width="37" height="37"/>
+                                        <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </activityIndicatorView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQm-N3-sMu">
-                                        <rect key="frame" x="137" y="466" width="49" height="36"/>
+                                        <rect key="frame" x="10" y="492" width="301" height="36"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                         <state key="normal" title="Video">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="actionVideo:" destination="h6Z-Uu-6hp" eventType="touchUpInside" id="4DQ-LB-7sO"/>
                                         </connections>
                                     </button>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="tid-rm-pdS">
-                                        <rect key="frame" x="142" y="171" width="37" height="37"/>
-                                        <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </activityIndicatorView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="tid-rm-pdS" firstAttribute="top" secondItem="Wtu-ll-DYA" secondAttribute="bottom" constant="139" id="4u6-NH-GRo"/>
                                     <constraint firstItem="eiC-fZ-lAa" firstAttribute="top" secondItem="dIV-Gn-IRf" secondAttribute="bottom" constant="8" id="5dI-7Y-T8l"/>
                                     <constraint firstAttribute="trailing" secondItem="tid-rm-pdS" secondAttribute="trailing" constant="141" id="6pl-Gu-y76"/>
-                                    <constraint firstItem="OQm-N3-sMu" firstAttribute="top" secondItem="eiC-fZ-lAa" secondAttribute="bottom" constant="9" id="8Q1-7c-DyE"/>
-                                    <constraint firstItem="OQm-N3-sMu" firstAttribute="leading" secondItem="uS7-jw-LNC" secondAttribute="leading" constant="137" id="E97-UY-Mb8"/>
                                     <constraint firstAttribute="centerX" secondItem="XTT-pU-eR8" secondAttribute="centerX" id="EDg-Ih-Jps"/>
                                     <constraint firstItem="IcK-nL-jlt" firstAttribute="leading" secondItem="uS7-jw-LNC" secondAttribute="leading" constant="9" id="EWp-6G-jy4"/>
                                     <constraint firstItem="Y0v-L2-T9w" firstAttribute="top" secondItem="tid-rm-pdS" secondAttribute="bottom" constant="135" id="Kj7-LX-GFd"/>
@@ -219,11 +219,13 @@
                                     <constraint firstAttribute="centerX" secondItem="dIV-Gn-IRf" secondAttribute="centerX" id="cwa-de-s19"/>
                                     <constraint firstItem="eiC-fZ-lAa" firstAttribute="leading" secondItem="uS7-jw-LNC" secondAttribute="leading" constant="10" id="e9V-Xj-uCB"/>
                                     <constraint firstAttribute="centerX" secondItem="IcK-nL-jlt" secondAttribute="centerX" id="fK5-dD-sOE"/>
-                                    <constraint firstAttribute="trailing" secondItem="OQm-N3-sMu" secondAttribute="trailing" constant="134" id="gKq-7X-tvb"/>
                                     <constraint firstItem="XTT-pU-eR8" firstAttribute="top" secondItem="Wtu-ll-DYA" secondAttribute="bottom" constant="8" id="gjX-Rn-oKp"/>
                                     <constraint firstAttribute="centerX" secondItem="Wtu-ll-DYA" secondAttribute="centerX" id="gzK-il-4eC"/>
+                                    <constraint firstItem="OQm-N3-sMu" firstAttribute="leading" secondItem="uS7-jw-LNC" secondAttribute="leading" constant="10" id="ihf-wZ-v2O"/>
                                     <constraint firstItem="Y0v-L2-T9w" firstAttribute="top" secondItem="XTT-pU-eR8" secondAttribute="bottom" constant="3" id="io5-Jt-9xe"/>
                                     <constraint firstItem="dIV-Gn-IRf" firstAttribute="top" secondItem="IcK-nL-jlt" secondAttribute="bottom" constant="8" id="knT-GA-83x"/>
+                                    <constraint firstAttribute="trailing" secondItem="OQm-N3-sMu" secondAttribute="trailing" constant="9" id="mSf-MS-5qh"/>
+                                    <constraint firstItem="OQm-N3-sMu" firstAttribute="top" secondItem="eiC-fZ-lAa" secondAttribute="bottom" constant="35" id="uFt-lv-tgx"/>
                                     <constraint firstAttribute="trailing" secondItem="IcK-nL-jlt" secondAttribute="trailing" constant="9" id="wwR-N2-KPT"/>
                                 </constraints>
                             </scrollView>
